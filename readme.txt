@@ -15,7 +15,7 @@ This plugin integrates WP Job Manager and its extensions into your Ultimate Memb
 This plugin needs Ultimate Member and WP Job Manager to be installed!
 
 Ultimate Member Job Manager is compatible with the following WP Job Manager extensions:
-Applications, Resume Manager, Bookmarks and Job Alerts.
+Applications, Bookmarks and Job Alerts.
 
 A separate tab will be available in the user profile for every installed extension.
 

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ultimate Member Job Manager
 Plugin URI: http://opentuteplus.com/
-Description: This plugin integrated WP Job Manager and its extensions into your Ultimate Member user profiles. This plugin needs Ultimate Member and WP Job Manager to be installed. Ultimate Member Job Manager is compatible with the following WP Job Manager extensions: Applications, Resume Manager, Bookmarks and Job Alerts.
+Description: This plugin integrated WP Job Manager and its extensions into your Ultimate Member user profiles. This plugin needs Ultimate Member and WP Job Manager to be installed. Ultimate Member Job Manager is compatible with the following WP Job Manager extensions: Applications, Bookmarks and Job Alerts.
 Author: Kishore Sahoo
 Author URI: http://blog.kishorechandra.co.in/
 Version: 1.0.0
