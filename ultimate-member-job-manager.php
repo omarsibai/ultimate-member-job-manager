@@ -35,8 +35,8 @@ function ultimate_member_job_manager_load_textdomain() {
 	load_plugin_textdomain( 'ultimate-member-job-manager', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
 
-function init_wp_job_manager_component(){
+function init_um_wp_job_manager_component(){
     include( ULTIMATE_MEMBER_WP_JOB_MANAGER .'class-um-wp-job-manager.php' );
 }
 
-add_action( 'init', 'init_wp_job_manager_component', 40 );
+add_action( 'init', 'init_um_wp_job_manager_component', 40 );

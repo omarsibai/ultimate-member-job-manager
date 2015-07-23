@@ -66,18 +66,18 @@ class UM_WP_Job_Manager_Component {
 	
 	function um_profile_content_job_manager_default( $args ) {
 		// include  file or echo do_shortcode
-		add_filter( 'job_manager_get_dashboard_jobs_args', 'function_to_change_dashboard_jobs_args', 10, 1 );
+		add_filter( 'job_manager_get_dashboard_jobs_args', 'um_function_to_change_dashboard_jobs_args', 10, 1 );
 		//echo do_shortcode( '[job_dashboard]' );
 		get_job_manager_template_part( 'um-job-dashboard', 'content', 'um_job_manager', ULTIMATE_MEMBER_WP_JOB_MANAGER_PLUGIN_DIR . '/templates/' );
-		//remove_filter( 'job_manager_get_dashboard_jobs_args', 'function_to_change_dashboard_jobs_args', 10, 1 );
+		//remove_filter( 'job_manager_get_dashboard_jobs_args', 'um_function_to_change_dashboard_jobs_args', 10, 1 );
 	}
 
 	function um_profile_subnav_content_job_dashboard_default( $args ) {
 		// include  file or echo do_shortcode
-		add_filter( 'job_manager_get_dashboard_jobs_args', 'function_to_change_dashboard_jobs_args', 10, 1 );
+		add_filter( 'job_manager_get_dashboard_jobs_args', 'um_function_to_change_dashboard_jobs_args', 10, 1 );
 		//echo do_shortcode( '[job_dashboard]' );
 		get_job_manager_template_part( 'um-job-dashboard', 'content', 'um_job_manager', ULTIMATE_MEMBER_WP_JOB_MANAGER_PLUGIN_DIR . '/templates/' );
-		//remove_filter( 'job_manager_get_dashboard_jobs_args', 'function_to_change_dashboard_jobs_args', 10, 1 );
+		//remove_filter( 'job_manager_get_dashboard_jobs_args', 'um_function_to_change_dashboard_jobs_args', 10, 1 );
 	}
 	
 	function um_profile_subnav_content_jobs_default( $args ) {

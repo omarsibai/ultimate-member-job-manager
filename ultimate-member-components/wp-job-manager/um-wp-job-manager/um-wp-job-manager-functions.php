@@ -10,7 +10,7 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
-function function_to_change_dashboard_jobs_args( $args ) {
+function um_function_to_change_dashboard_jobs_args( $args ) {
     //if ( is_buddypress() ) {
     	// ....If not show the job dashboard
 		$posts_per_page = 25;
